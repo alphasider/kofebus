@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="940.151 4906.17 43.698 23.263">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #95989a;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="arrow_to_up" transform="translate(1931 9253.727) rotate(180)">
+    <path id="Стрелка_вниз" data-name="Стрелка вниз" class="cls-1" d="M21.142,21.142l-.071.071.071-.071L0,0,21.142,21.142,42.284,0,21.142,21.142l.071.071Z" transform="translate(947.858 4325)"/>
+  </g>
+</svg>

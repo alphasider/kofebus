@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#2b1f29">
+	
+	<title>Kofebus</title>
+	
+	<!-- bower:css -->
+	<link rel="stylesheet" href="libs/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick/slick-theme.css" />
+	<!-- endbower -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/bootstrap-grid.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-content">
+			
+			<!-- HEADER SECTION -->
+			
+			<section id="header" class="header">
+				<nav class="navigation">
+					<div class="logo"><a href="#header">
+						<!-- <img src="assets/img/svg/logo_white.svg" alt=""> -->
+					</a></div>
+					<ul class="navigation-menu">
+						<li class="navigation-menu__item navigation-menu__item_active"><a href="#header" class="nav-link">Главная</a></li>
+						<li class="navigation-menu__item"><a href="#menu" class="nav-link">Меню</a></li>
+						<li class="navigation-menu__item"><a href="#photos" class="nav-link">Фото</a></li>
+						<li class="navigation-menu__item"><a href="#facts" class="nav-link">Факты</a></li>
+						<li class="navigation-menu__item"><a href="#contacts" class="nav-link">Контакты</a></li>
+					</ul>
+				</nav>
+				<!-- <div class="container"> -->
+					
+					<div class="header-slider">
+						<div class="header-slider__item">
+							<img src="assets/img/BURGER.png" alt="Burger" class="black-burger">
+							<img src="assets/img/TEXT_BURGER.png" alt="Black Burger" class="burger-inscription">
+						</div>
+						<div class="header-slider__item">
+							<img src="assets/img/BURGER.png" alt="Burger" class="black-burger">
+							<img src="assets/img/TEXT_BURGER.png" alt="Black Burger" class="burger-inscription">
+						</div>
+					</div>
+				<!-- </div> -->
+				<!-- <span class="arrow-area">
+					<a href="#menu" class="down-top nav-link">
+						<img src="assets/img/svg/arrow_to_down.svg" alt="down" class="arrow-to-down">
+					</a>
+				</span> -->
+			</section>
+
+			<!--MENU SECTION-->
+
+ 			<section id="menu" class="menu">
+				<div class="container">
+					<div class="section-title gray-font">
+						<h1>Меню</h1>
+					</div>
+					<div class="slider-container">
+						<div class="use-swipe">
+							<p class="use-swipe__note">Вы можете использовать swipe</p>
+						</div>
+						<div class="menu-slider">
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_coffee_1.svg" alt="Фирменные кофейные напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_coffee_2.svg" alt="Милкшейки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_coffee_3.svg" alt="Кофе и кофейные напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_lemonade.svg" alt="Фирменные освежающие напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_ice_coffee.svg" alt="Охлажденные кофейные напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_tea.svg" alt="Горячие некофейные напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_ice_bottle.svg" alt="Холодные некофеные напитки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_sandwich.svg" alt="Горячие сэндвичи" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_hot_dog.svg" alt="Хот-доги" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_comboclabs.svg" alt="Комбоклабы" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_ice_cream.svg" alt="Мороженое" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_cheesecake.svg" alt="Десерты" class="menu-icon">
+							</div>
+							<div class="menu-slider__item">
+								<img src="assets/img/svg/menu_icons/icon_menu_breakfast.svg" alt="Завтраки" class="menu-icon">
+							</div>
+							<div class="menu-slider__item plus-icon">
+								<img src="assets/img/svg/menu_icons/icon_menu_plus.svg" alt="Добавь!" class="menu-icon">
+							</div>
+						</div>
+					</div>
+					<div class="menu-slider-captions white-font">
+						<div class="menu-slider-captions__item">Фирменные кофейные напитки</div>
+						<div class="menu-slider-captions__item">Милкшейки</div>
+						<div class="menu-slider-captions__item">Кофе и кофейные напитки</div>
+						<div class="menu-slider-captions__item">Фирменные освежающие напитки</div>
+						<div class="menu-slider-captions__item">Охлажденные кофейные напитки</div>
+						<div class="menu-slider-captions__item">Горячие некофейные напитки</div>
+						<div class="menu-slider-captions__item">Холодные некофеные напитки</div>
+						<div class="menu-slider-captions__item">Горячие сэндвичи</div>
+						<div class="menu-slider-captions__item">Хот-доги</div>
+						<div class="menu-slider-captions__item">Комбоклабы</div>
+						<div class="menu-slider-captions__item">Мороженое</div>
+						<div class="menu-slider-captions__item">Десерты</div>
+						<div class="menu-slider-captions__item">Завтраки</div>
+						<div class="menu-slider-captions__item">Добавь!</div>
+					</div>
+					<div class="pricing-menu">
+						<div class="pricing-menu__item pricing-menu__coffee">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_2.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_3.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_4.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_5.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_6.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Сливочный Латте</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Латте Карамелитта</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Кофе Баунти</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Сливочный Латте</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item pricing-menu__sandwich">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_2.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Сливочный Латте</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item pricing-menu__tea">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_2.png" alt="coffee"></div>
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_3.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Сливочный Латте</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+									<li class="price-list__item">
+										<div class="product-name">Латте Карамелитта</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item lemonade">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_2.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_3.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_4.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_5.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_6.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_1.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_2.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_3.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pricing-menu__item">
+							<div class="pricing-menu__product-thumbs">
+								<!--Current styles allows max 12 thumbs to correctly show-->
+								<div class="product-thumbs__item"><img src="assets/img/menu/coffee/coffee_4.png" alt="coffee"></div>
+							</div>
+							<div class="pricing-menu__price-list white-font">
+								<ul class="price-list">
+									<li class="price-list__item price-list__item_active">
+										<div class="product-name">Моккачина</div>
+										<div class="product-dots"></div>
+										<div class="product-price">159</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="menu-parallax">
+					<!--This first empty element is needed for correctly display the next first element-->
+					<div class="layer" data-depth="0.0"></div>
+					<div class="layer sprite menu-parallax__item-1" data-depth="0.2"></div>
+					<div class="layer sprite menu-parallax__item-2" data-depth="0.1"></div>
+					<div class="layer sprite menu-parallax__item-3" data-depth="0.3"></div>
+					<div class="layer sprite menu-parallax__item-4" data-depth="0.3"></div>
+					<div class="layer sprite menu-parallax__item-5" data-depth="0.1"></div>
+					<div class="layer sprite menu-parallax__item-6" data-depth="0.2"></div>
+					
+				</div>
+			</section>
+
+			<!-- SECTION PHOTO-->
+
+ 			<section id="photos" class="photos">
+				<div class="section-title gray-font">
+					<h1>Фото</h1>
+				</div>
+				<div class="container">
+					<!-- <img src="assets/img/svg/icon_instagram.svg" alt="" id="instalogo"> -->
+					<div id="instafeed">
+						
+					</div>
+				</div>
+			</section> 
+
+			<!-- SECTION FACTS -->
+
+ 			<section id="facts" class="facts">
+				<div class="section-title">
+					<h1>Факты</h1>
+				</div>
+				<div class="container">
+					<div class="bus">
+						<div class="bus__slider">
+							<div class="bus__slider__item">
+								<div class="bus__slider__title">
+									Отдыхая вместе с нами, вы не просто посещаете кафе, вы попадает в музей кофе с Историей!
+								</div>
+								<div class="bus__slider__text">
+									<p class="facts__text gray-font">Дорогие друзья, представляем вашему вниманию историю нашего креативного проекта "Кофебус". А креативный он, потому что представляет собой кафе внутри легендарного автобуса! Прямиком из Америки...</p>
+								</div>
+							</div>
+							<div class="bus__slider__item">
+								<div class="bus__slider__photo">
+									<img src="assets/img/facts_coins.png" alt="coins">
+								</div>
+								<div class="bus__slider__text">
+									<p class="facts__text gray-font">В процессе реставрации автобуса под его полом были найдены старые американские монеты номиналом в один дайм, некрторые из которых не выпускаются уже десть с лишним лет.</p>
+								</div>
+							</div>
+							<div class="bus__slider__item">
+								<div class="bus__slider__text">
+									<p class="facts__text gray-font">Кафе подобного рода существуют во многих городах мира и везде считаются достопримечательностью. Все детали транспорта отреставрированы, узлы и агрегаты исправны, а знаменитый жёлто-черный стиль обновлен и риукрашен цветными фонарями.</p>
+								</div>
+							</div>
+							<div class="bus__slider__item">
+								<div class="bus__slider__text">
+									<p class="facts__text gray-font">Погрузитесь в историю легенды на колёсах за чашкой кофе и "Кофебус" останется в вашем сердце навсегда!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="facts-parallax">
+					<div class="layer" data-depth="0.0"></div>
+					<div class="layer sprite facts-parallax__item-1" data-depth="0.3"></div>
+					<div class="layer sprite facts-parallax__item-2" data-depth="0.1"></div>
+					<div class="layer sprite facts-parallax__item-3" data-depth="0.2"></div>
+					<div class="layer sprite facts-parallax__item-4" data-depth="0.3"></div>
+					<div class="layer sprite facts-parallax__item-5" data-depth="0.1"></div>
+					<div class="layer sprite facts-parallax__item-6" data-depth="0.2"></div>
+					<div class="layer sprite facts-parallax__item-7" data-depth="0.1"></div>
+					<div class="layer sprite facts-parallax__item-8" data-depth="0.3"></div>
+					<div class="layer sprite facts-parallax__item-9" data-depth="0.1"></div>
+					<div class="layer sprite facts-parallax__item-10" data-depth="0.2"></div>
+					<div class="layer sprite facts-parallax__item-11" data-depth="0.1"></div>
+					<div class="layer sprite facts-parallax__item-12" data-depth="0.3"></div>
+				</div>
+			</section>
+
+			<!-- SECTION CONTACTS -->
+
+ 			<section id="contacts" class="contacts">
+				<div class="section-title">
+					<h1>Контакты</h1>
+				</div>
+				<div class="map">
+					<div id="map" style="width: 100%; height: 600px"></div>
+				</div>
+				<div class="footer">
+					<div class="footer-contacts">
+						<div class="all-contacts white-font">
+							<div class="all-contacts__phone">
+								<a href="tel:+7(985)990-36-82" class="all-contacts__phone__number">+7 985 990-36-82</a>
+								<img src="assets/img/contacts/svg/icon_phone.svg" alt="phone" class="phone__icon__phone footer__icon">
+							</div>
+							<div class="all-contacts__address">
+								<div class="address__text">г.Орехово-Зуево<br />улица Ленина, 93</div>
+								<div class="address__icon">
+									<img src="assets/img/contacts/svg/icon_map.svg" alt="Map" class="address__icon__map footer__icon">
+								</div>
+							</div>
+						</div>
+						<div class="work-time">
+							<div class="work-time__block">
+								<span class="arrow-area arrow-area_top">
+									<a href="#header" class="down-top nav-link">
+										<img src="assets/img/svg/arrow_to_down.svg" alt="Up" class="arrow-to-down arrow-to-down_top">
+									</a>
+								</span>
+								<h1 class="work-time__block__title">Часы работы</h1>
+								<div class="work-time__block__text">
+									<h2 class="work-time__subtitle">Ежедневно</h2> с 8:00 до 00:00</div>
+								<div class="work-time__block__logo">
+									<img src="assets/img/svg/logo_kofebus.svg" alt="Kofebus" class="block__logo__kofebus">
+								</div>
+							</div>
+						</div>
+						<div class="footer-info white-font">
+							<nav class="small__menu">
+								<ul class="footer-menu">
+									<li class="footer-menu__item"><a href="#menu" class="footer-menu__link nav-link">Меню</a></li>
+									<li class="footer-menu__item"><a href="#photos" class="footer-menu__link nav-link">Фото</a></li>
+									<li class="footer-menu__item"><a href="#facts" class="footer-menu__link nav-link">Факты</a></li>
+								</ul>
+							</nav>
+							<div class="footer-info__social-icons">
+								<a href="https://vk.com/kofebus" target="_blank"><img src="assets/img/svg/icon_vk.svg" alt="Vk" class="social-icons__vk footer__icon"></a>
+								<a href="https://www.instagram.com/kofebus/" target="_blank"><img src="assets/img/svg/icon_instagram.svg" alt="Instagram" class="social-icons__instagram footer__icon"></a>
+							</div>
+						</div>
+					</div>
+					<div class="space-tech white-font">
+						<p class="space-tech__text">Работа студии SpaceTec</p>
+					</div>
+					<div class="container">
+						<div id="footer-parallax">
+							<!--This first empty element is needed for correctly display the next first element-->
+							<div class="layer" data-depth="0.0"></div>
+							<div class="layer sprite footer-parallax__item-1" data-depth="0.1"></div>
+							<div class="layer sprite footer-parallax__item-2" data-depth="0.1"></div>
+							<div class="layer sprite footer-parallax__item-3" data-depth="0.2"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- bower:js -->
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/instafeedjs/instafeedjs.js"></script>
+	<script src="libs/parallaxjs/parallax.js"></script>
+	<!-- endbower -->
+	<!-- Yandex maps -->
+	
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
